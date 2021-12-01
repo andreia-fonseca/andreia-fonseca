@@ -1,0 +1,79 @@
+* {
+
+}
+
+main h1 {
+    font-family: 'Anton', sans-serif;
+    display: block;
+    color: lightgrey;
+    text-align: center;
+    text-decoration: none;
+    font-size: 220px;
+}
+
+
+header h2 {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    color: lightgrey;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+header img {
+    width: 70px;
+    height: 70px;
+}
+header{
+    position: relative;
+}
+.img1{
+   top: 0;
+    right: 0;
+}
+.img2{
+    right: 10px;
+}
+
+
+header .rotate {
+    display: block;
+    position: fixed;
+    -webkit-transition: -webkit-transform 1s;
+}
+
+header .rotate:hover {
+    -webkit-transform: rotate(360deg);
+}
+
+
+.navbar {
+    border-top-width: 1px;
+    border-top-style: solid;
+    color: lightgrey;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar a {
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    display: block;
+    color: lightgrey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.navbar a:hover {
+    color: mediumpurple;
+}
