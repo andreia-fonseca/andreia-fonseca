@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Open Sans,sans-serif;
+    height: 100vh;
+    background: #000;
+    color: #fff;
+    display: grid;
+    place-items: center;
+    cursor: none;
+}
+.content{
+    margin: 200px;
+}
+.content h1{
+    font-size: 6rem;
+    margin: 0;
+}
+.content p{
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+
+
+/*Cursor Start*/
+
+.cursor{
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    background: whitesmoke;
+
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    transition: 0.15s;
+    pointer-events: none;
+    mix-blend-mode: difference;
+}
+
+.content:hover ~ .cursor  {
+    transform: scale(6);
+}
+
