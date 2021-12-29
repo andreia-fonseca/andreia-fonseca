@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f8f81c1-8893-4cd2-833f-41126a29880d" name="Changes" comment="teste">
-      <change afterPath="$PROJECT_DIR$/css/estrutura.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grelha teste.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/cursor.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/cursor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/loader.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/loader.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cursor teste.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loading.html" beforeDir="false" afterPath="$PROJECT_DIR$/loading.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teste.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/projeto.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/projeto.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projetos.html" beforeDir="false" afterPath="$PROJECT_DIR$/projetos.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +32,15 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="21eRiU620IPku0tx08Syl1vDx4c" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -62,6 +59,7 @@
       <recent name="C:\Users\Andreia Fonseca\Documents\GitHub\andreia-fonseca\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Andreia Fonseca\Documents\GitHub\andreia-fonseca\js" />
       <recent name="C:\Users\Andreia Fonseca\Documents\GitHub\andreia-fonseca\css" />
       <recent name="C:\Users\Andreia Fonseca\Documents\GitHub\andreia-fonseca\img" />
     </key>
@@ -82,6 +80,8 @@
       <workItem from="1640694900817" duration="7769000" />
       <workItem from="1640714427439" duration="76000" />
       <workItem from="1640714520921" duration="57000" />
+      <workItem from="1640792159781" duration="345000" />
+      <workItem from="1640792543442" duration="696000" />
     </task>
     <task id="LOCAL-00001" summary="teste">
       <created>1638300079875</created>
@@ -109,6 +109,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="teste" />
     <option name="LAST_COMMIT_MESSAGE" value="teste" />
   </component>
