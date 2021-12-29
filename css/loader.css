@@ -1,15 +1,20 @@
 * {
-
+    cursor: none;
 }
 
 body {
     background: black;
 }
 .loading-page {
-    margin: 100px auto 0;
     width: 200px;
     height: 25px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
 div {
     color: whitesmoke;
     margin: 5px 0;
@@ -60,4 +65,26 @@ div {
     100% {
         opacity: 1;
     }
+}
+
+
+
+
+
+.main{
+    text-align: center;
+    width: 90%;
+    opacity: 0;
+    display: none;
+    transition: opacity 2s ease-in;
+}
+
+.main h1{
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+.main p{
+    font-size: 20px;
+    color: whitesmoke ;
 }

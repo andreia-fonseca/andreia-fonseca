@@ -1,0 +1,250 @@
+body {
+}
+
+.grid {
+    width: 100%;
+    position: relative;
+}
+
+.empty {
+    min-height: 20px;
+}
+
+section {
+    position: relative;
+    margin-bottom: 170px;
+    height: auto;
+}
+
+.grid:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.clear {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media only screen and (max-width: 639px ) {
+    main {
+        margin: 0 6vw;
+    }
+
+    .scol-1 {
+        width: 6%;
+    }
+
+    .scol-4 {
+        width: 32%;
+    }
+
+    .scol-5 {
+        width: 40%;
+    }
+
+    .scol-6 {
+        width: 49%;
+    }
+
+    .scol-7 {
+        width: 58%;
+    }
+
+    .scol-12 {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 992px) {
+
+    main {
+        margin: 0 6vw;
+    }
+
+    .mcol-1 {
+        width: 6%;
+    }
+
+    .mcol-4 {
+        width: 32.2%;
+    }
+
+    .mcol-5 {
+        width: 40%;
+    }
+
+    .mcol-6 {
+        width: 49%;
+    }
+
+    .mcol-7 {
+        width: 58%;
+    }
+
+    .mcol-8 {
+        width:66%;
+    }
+
+    .mcol-12 {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width: 993px ) {
+    main {
+        margin: 0 13vw;
+    }
+
+    .col-1 {
+        width: 6%;
+    }
+
+    .col-2 {
+        width: 12%;
+    }
+
+    .col-4 {
+        width: 32%;
+    }
+
+    .col-5 {
+        width: 40%;
+    }
+
+    .col-6 {
+        width: 49%;
+    }
+
+    .col-7 {
+        width: 58%;
+    }
+
+    .col-8 {
+        width:66%;
+    }
+
+    .col-12 {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+[class*='col-'] {
+    float: left;
+    margin-right: 1.4vw;
+}
+
+[class*='col-']:last-of-type {
+    margin-right: 0;
+}
+
+
+/* aquiiiiiiiiiii*/
+
+
+*{
+    background: black;
+}
+
+p{
+    color: whitesmoke;
+}
+.typing1 {
+    width: 400px;
+    background: black;
+    font-size:50px;
+    font-family:monospace;
+}
+.typing1 .text1 {
+    margin:0;
+    white-space:nowrap;
+    overflow:hidden;
+    animation:typing 6s steps(24,end) forwards,
+    blink 1s infinite;
+}
+
+
+/*.typing1 {
+    width: 100px;
+    background: black;
+    font-size:35px;
+    font-family:monospace;
+}
+.typing1 .text1 {
+    margin:0;
+    white-space:nowrap;
+    overflow:hidden;
+    animation:typing 2s steps(4,end) forwards,
+    blink 3s ;
+}
+
+
+.typing2 {
+    width: 400px;
+    background: black;
+    font-size:35px;
+    font-family:monospace;
+}
+.typing2 .text2 {
+    margin:0;
+    white-space:nowrap;
+    overflow:hidden;
+    animation:typing 4s steps(18,end) forwards,
+    blink 4s ;
+    animation-delay: 2.5s;
+}
+
+.typing3 {
+    width: 400px;
+    background: black;
+    font-size:35px;
+    font-family:monospace;
+}
+
+.typing3 .text3 {
+    margin:0;
+    white-space:nowrap;
+    overflow:hidden;
+    animation:typing 4s steps(22,end) forwards,
+    blink 4s ;
+    animation-delay: 6.5s;
+}
+
+.typing4 {
+    width: 700px;
+    background: black;
+    font-size:35px;
+    font-family:monospace;
+}
+.typing4 .text4 {
+    margin:0;
+    white-space:nowrap;
+    overflow:hidden;
+    animation:typing 6s steps(33,end) forwards,
+    blink 6s infinite ;
+    animation-delay: 11s;
+}
+
+*/
+
+
+
+@keyframes typing {
+    0% { width:0% }
+    100% { width:100% }
+}
+@keyframes blink {
+    0%,100% {
+        border-right:2px solid transparent;
+    }
+    50% {
+        border-right:2px solid whitesmoke;
+    }
+}
+
