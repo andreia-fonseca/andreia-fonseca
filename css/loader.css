@@ -15,7 +15,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-div {
+.text-loading {
     color: whitesmoke;
     margin: 5px 0;
     text-transform: uppercase;
@@ -31,7 +31,7 @@ div {
     background: whitesmoke;
     margin: 0 1px;
     display: inline-block;
-    animation: opacity-1 2400ms infinite ease-in-out;
+    animation: opacidade 3s infinite ease-in-out;
 }
 
 .loading-page .streak-1 { animation-delay: 2200ms; }
@@ -55,7 +55,7 @@ div {
 .loading-page .streak-19 { animation-delay: 2000ms; }
 .loading-page .streak-20 { animation-delay: 2200ms; }
 
-@keyframes opacity-1 {
+@keyframes opacidade {
     0% {
         opacity: 1;
     }
@@ -65,26 +65,4 @@ div {
     100% {
         opacity: 1;
     }
-}
-
-
-
-
-
-.main{
-    text-align: center;
-    width: 90%;
-    opacity: 0;
-    display: none;
-    transition: opacity 2s ease-in;
-}
-
-.main h1{
-    font-size: 40px;
-    color: whitesmoke;
-}
-
-.main p{
-    font-size: 20px;
-    color: whitesmoke ;
 }

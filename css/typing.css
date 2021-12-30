@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Hashira';
+    src: url('../fontes/Hashira-Mt.ttf');
+    src: local('Hashira-Mt'),
+    url('../fontes/Hashira-Mt.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roxie Rossa';
+    src: url('../fontes/Roxie Rossa.otf');
+    src: local('Roxie Rossa.otf'),
+    url('../fontes/Roxie Rossa.otf') format('opentype');
+}
+
+
+.typing p {
+    color: white;
+    border-right: 2px solid white;
+    font-size: 60px;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: "Roxie Rossa";
+    /*font-family: "Hashira";*/
+}
+
+.typing p:nth-child(1) {
+    opacity: 0;
+    width: 155px;
+    animation: typing1 0.8s steps(6, end);
+    animation-fill-mode: forwards;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    animation-delay: 6s;
+}
+
+.typing p:nth-child(2) {
+    opacity: 0;
+    width: 580px;
+    animation: typing2 2.5s steps(23, end);
+    animation-fill-mode: forwards;
+    animation-delay: 7.5s;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.typing p:nth-child(3) {
+    opacity: 0;
+    width: 685px;
+    animation: typing3 3s steps(28, end), pisca .5s step-end infinite alternate;
+    animation-fill-mode: forwards;
+    animation-delay: 10.5s;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@keyframes typing1 {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    99% {
+        border-right: 2px solid white;
+    }
+    100% {
+        opacity: 1;
+        border: none;
+    }
+}
+
+@keyframes typing2 {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    99% {
+        border-right: 2px solid white;
+    }
+    100% {
+        opacity: 1;
+        border: none;
+    }
+}
+
+@keyframes typing3 {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes pisca {
+    50% {
+        border-color: transparent;
+    }
+}

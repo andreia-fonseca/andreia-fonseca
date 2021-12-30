@@ -145,106 +145,107 @@ section {
 }
 
 
+
+
 /* aquiiiiiiiiiii*/
+@font-face {
+    font-family: 'Hashira';
+    src: url('../fontes/Hashira-Mt.ttf');
+    src: local('Hashira-Mt'),
+    url('../fontes/Hashira-Mt.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roxie Rossa';
+    src: url('../fontes/Roxie Rossa.otf');
+    src: local('Roxie Rossa.otf'),
+    url('../fontes/Roxie Rossa.otf') format('opentype');
+}
 
 
-*{
+body{
     background: black;
 }
 
-p{
-    color: whitesmoke;
-}
-.typing1 {
-    width: 400px;
-    background: black;
-    font-size:50px;
-    font-family:monospace;
-}
-.typing1 .text1 {
-    margin:0;
-    white-space:nowrap;
-    overflow:hidden;
-    animation:typing 6s steps(24,end) forwards,
-    blink 1s infinite;
+.typing p {
+  color: white;
+  border-right: 2px solid white;
+  font-size: 60px;
+  white-space: nowrap;
+  overflow: hidden;
+    font-family: "Roxie Rossa";
+    /*font-family: "Hashira";*/
 }
 
-
-/*.typing1 {
-    width: 100px;
-    background: black;
-    font-size:35px;
-    font-family:monospace;
-}
-.typing1 .text1 {
-    margin:0;
-    white-space:nowrap;
-    overflow:hidden;
-    animation:typing 2s steps(4,end) forwards,
-    blink 3s ;
+.typing p:nth-child(1) {
+  width: 155px;
+  animation: typing1 0.8s steps(6, end);
+  animation-fill-mode: forwards;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-
-.typing2 {
-    width: 400px;
-    background: black;
-    font-size:35px;
-    font-family:monospace;
-}
-.typing2 .text2 {
-    margin:0;
-    white-space:nowrap;
-    overflow:hidden;
-    animation:typing 4s steps(18,end) forwards,
-    blink 4s ;
-    animation-delay: 2.5s;
+.typing p:nth-child(2) {
+  opacity: 0;
+  width: 580px;
+  animation: typing2 2.5s steps(23, end);
+  animation-fill-mode: forwards;
+  animation-delay: 1.5s;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.typing3 {
-    width: 400px;
-    background: black;
-    font-size:35px;
-    font-family:monospace;
+.typing p:nth-child(3) {
+  opacity: 0;
+  width: 685px;
+  animation: typing3 3s steps(28, end), pisca .5s step-end infinite alternate;
+  animation-fill-mode: forwards;
+  animation-delay: 4.5s;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.typing3 .text3 {
-    margin:0;
-    white-space:nowrap;
-    overflow:hidden;
-    animation:typing 4s steps(22,end) forwards,
-    blink 4s ;
-    animation-delay: 6.5s;
+@keyframes typing1 {
+  0% {
+    width: 0;
+  }
+  99% {
+    border-right: 2px solid white;
+  }
+  100% {
+    border: none;
+  }
 }
 
-.typing4 {
-    width: 700px;
-    background: black;
-    font-size:35px;
-    font-family:monospace;
+@keyframes typing2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99% {
+    border-right: 2px solid white;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
 }
-.typing4 .text4 {
-    margin:0;
-    white-space:nowrap;
-    overflow:hidden;
-    animation:typing 6s steps(33,end) forwards,
-    blink 6s infinite ;
-    animation-delay: 11s;
+
+@keyframes typing3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-*/
-
-
-
-@keyframes typing {
-    0% { width:0% }
-    100% { width:100% }
-}
-@keyframes blink {
-    0%,100% {
-        border-right:2px solid transparent;
-    }
+@keyframes pisca {
     50% {
-        border-right:2px solid whitesmoke;
+        border-color: transparent;
     }
 }
-
