@@ -1,5 +1,7 @@
 .typing{
     padding-top: 25px;
+    width: 100%;
+    overflow: hidden;
 }
 
 .typing p {
@@ -88,5 +90,26 @@
 @keyframes pisca {
     50% {
         border-color: transparent;
+    }
+}
+
+/* responsividade */
+@media only screen and (max-width: 639px ) {
+    .typing p {
+        font-size: 25px;
+    }
+    .typing p:nth-child(1) {
+        width: 70px;
+    }
+    .typing p:nth-child(2) {
+        width: 245px;
+    }
+    .typing p:nth-child(3) {
+        width: 290px;
+    }
+}
+@media only screen and (min-width: 640px) and (max-width: 992px) {
+    .typing p {
+        font-size: 53px;
     }
 }

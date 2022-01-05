@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a629b3e-98dd-4989-b04e-b47bad3f49c6" name="Changes" comment="" />
+    <list default="true" id="2a629b3e-98dd-4989-b04e-b47bad3f49c6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/projetos.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/projetos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/typing.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/typing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +28,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="23Eo2qrl9IeEmnzbe1IeffExkd6" />
   <component name="ProjectViewState">
@@ -33,7 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/andreia-fonseca" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Mestrado/Olivia Meta 2 (melhoria)/olivia-v2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -58,6 +67,8 @@
       <updated>1641308402634</updated>
       <workItem from="1641308403928" duration="13706000" />
       <workItem from="1641379327549" duration="8806000" />
+      <workItem from="1641399190473" duration="457000" />
+      <workItem from="1641402611827" duration="3257000" />
     </task>
     <servers />
   </component>

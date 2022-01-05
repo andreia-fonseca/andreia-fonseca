@@ -240,3 +240,43 @@ img{
     grid-gap: 10px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
+
+/*responsividade*/
+@media only screen and (max-width: 639px ) {
+    .Scroll-text {
+        font-size: 30px;
+    }
+
+    .texto-2{
+        font-size: 12px;
+    }
+    .texto-3{
+        font-size: 12px;
+    }
+    .secção-2{
+        padding-bottom: 0px;
+        height: 500px;
+    }
+    .texto-1 {
+        width:80%;
+        padding:0 0 0 0;
+    }
+    .texto-1 h1 {
+        font-size:40px;
+        padding:0 0 0 0;
+    }
+
+    .texto-1 h2 {
+        font-size:15px;
+    }
+
+}
+
+@media only screen and (min-width: 640px) and (max-width: 992px) {
+    .texto-2{
+        font-size: 15px;
+    }
+    .texto-3{
+        font-size: 15px;
+    }
+}
