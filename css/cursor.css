@@ -3,7 +3,6 @@
     width: 10px;
     height: 10px;
     background: whitesmoke;
-
     transform: translate(-50%,-50%);
     border-radius: 50%;
     transition: 0.15s;
@@ -14,5 +13,3 @@
 .content:hover ~ .cursor  {
     transform: scale(6);
 }
-
-

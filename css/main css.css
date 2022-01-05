@@ -1,0 +1,242 @@
+@font-face {
+    font-family: 'Roxie Rossa';
+    src: url('../fontes/Roxie Rossa.otf');
+    src: local('Roxie Rossa.otf'),
+    url('../fontes/Roxie Rossa.otf') format('opentype');
+}
+
+
+/**** mostrar o conteudo principal ****/
+#Mostrar-Conteudo{
+    animation: mostrar forwards;
+    animation-delay: 10s;
+    display: none;
+}
+@keyframes mostrar {
+    to   {   display: block}
+}
+/**************************************/
+
+#seta{
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    position: relative;
+    animation: cima-baixo 1s ease-in-out alternate infinite ;
+}
+@keyframes cima-baixo {
+    from {
+        top:0px;
+    }
+    to {
+        top:20px;
+    }
+}
+
+.container-scroll{
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin-top: 200px;
+    padding-bottom: 200px;
+}
+.Scroll-text{
+    font-size: 60px;
+    display: inline-block;
+    white-space: nowrap;
+    animation: moveText 25s infinite linear;
+    color:whitesmoke;
+}
+.Scroll-text:hover {
+    animation-play-state: paused;
+}
+
+@keyframes moveText {
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+
+.container-main {
+    text-align:center;
+}
+.secção-1{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.fotografia-1 {
+    display:inline-block;
+    width:300px;
+    padding:10px 0 10px 0;
+    vertical-align:top;
+}
+img{
+    width: 100%;
+}
+.texto-1 {
+    font-family: "Roxie Rossa";
+    color: whitesmoke;
+    display:inline-block;
+    width:40%;
+    vertical-align:top;
+    padding:0 0 0 60px;
+    text-align:left;
+}
+.texto-1 h1 {
+    text-align:left;
+    font-size:100px;
+    padding:5px 0 0 0;
+    margin-top: 0;
+}
+
+.texto-1 h2 {
+    text-align:left;
+    line-height:1.6;
+    font-size:20px;
+    margin: 0 0 0 0;
+}
+
+
+/* 2 */
+.secção-2{
+    height: 800px;
+    padding-bottom: 250px;
+}
+.texto-2{
+    font-family: "Roxie Rossa";
+    font-size:25px;
+    color: whitesmoke;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.div-fotografias{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.fotografias {
+    width: 22vw;
+    position: absolute;
+}
+
+#fotografia-2 {
+    top: 0;
+    left: 18%;
+}
+
+#fotografia-4{
+    top:45px;
+    right: 18%;
+}
+#fotografia-3 {
+    top: 75px;
+    right:40%;
+}
+
+/* 3 */
+
+.texto-3{
+    font-family: "Roxie Rossa";
+    font-size:25px;
+    color: whitesmoke;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.circle{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 120px;
+}
+
+.centro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Roxie Rossa";
+    text-align: center;
+    font-size: 20px;
+    color: whitesmoke;
+    z-index: 1;
+}
+.centro a{
+    text-decoration: none;
+    color: whitesmoke;
+    z-index: 1;
+}
+.centro a:hover{
+    font-size: 22px;
+}
+
+.text-circulo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    animation: rodarTexto 10s linear infinite;
+}
+
+@keyframes rodarTexto{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.text-circulo span {
+    position: absolute;
+    left: 50%;
+    font-size: 25px;
+    transform-origin: 0 125px;
+    color: whitesmoke;
+    font-family: "Roxie Rossa";
+}
+
+/* 4 */
+.secção-4{
+
+}
+.column a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.column a::after{
+    display: block;
+    content: '';
+    width: 0;
+    height: 1px;
+    margin-top: 5px;
+    background: whitesmoke;
+    transition: width .3s;
+}
+.column a:hover::after {
+    background-color:whitesmoke;
+    width: 100%;
+}
+.column{
+    font-family: "Roxie Rossa";
+    font-size: 20px;
+    color:whitesmoke;
+    padding: 20px;
+}
+.row{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}

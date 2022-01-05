@@ -19,7 +19,7 @@ body {
     border: none;
     color: whitesmoke;
     padding: 10px 20px;
-    font-family: "";  /*em falta*/
+    font-family: "Roxie Rossa";
     font-size: 13px;
     text-align: center;
     text-decoration: none;
@@ -75,7 +75,6 @@ body {
     filter: grayscale(0);
     opacity: 1;
     transform: scale(1.1);
-
     /*animation: shake 0.2s;*/
 }
 /*@keyframes shake {

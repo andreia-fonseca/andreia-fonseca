@@ -1,16 +1,6 @@
-@font-face {
-    font-family: 'Hashira';
-    src: url('../fontes/Hashira-Mt.ttf');
-    src: local('Hashira-Mt'),
-    url('../fontes/Hashira-Mt.ttf') format('truetype');
+.typing{
+    padding-top: 25px;
 }
-@font-face {
-    font-family: 'Roxie Rossa';
-    src: url('../fontes/Roxie Rossa.otf');
-    src: local('Roxie Rossa.otf'),
-    url('../fontes/Roxie Rossa.otf') format('opentype');
-}
-
 
 .typing p {
     color: white;
@@ -19,7 +9,6 @@
     white-space: nowrap;
     overflow: hidden;
     font-family: "Roxie Rossa";
-    /*font-family: "Hashira";*/
 }
 
 .typing p:nth-child(1) {
