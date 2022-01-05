@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Roxie-Rossa';
-    src: url('../fontes/Roxie-Rossa.otf');
-    src: local('Roxie-Rossa.otf'),
-    url('../fontes/Roxie-Rossa.otf') format('opentype');
+    src: url('../fontes/Roxie-rossa.otf');
+    src: local('Roxie-rossa.otf'),
+    url('../fontes/roxie-Rossa.otf') format('opentype');
 }
 
 * {
