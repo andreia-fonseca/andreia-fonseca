@@ -19,7 +19,7 @@ body {
     border: none;
     color: whitesmoke;
     padding: 10px 20px;
-    font-family: "Roxie Rossa";
+    font-family: "Roxie-Rossa", serif;;
     font-size: 13px;
     text-align: center;
     text-decoration: none;
@@ -42,7 +42,7 @@ body {
 
 .instruçoes {
     position: fixed;
-    font-family: "";  /*em falta*/
+    font-family: "Roxie-Rossa", serif;;
     font-size: 13px;
     color: whitesmoke;
     left: 50%;

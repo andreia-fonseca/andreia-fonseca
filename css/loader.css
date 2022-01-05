@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'Roxie Rossa';
-    src: url('../fontes/Roxie Rossa.otf');
-    src: local('Roxie Rossa.otf'),
-    url('../fontes/Roxie Rossa.otf') format('opentype');
+    font-family: 'Roxie-Rossa';
+    src: url('../fontes/Roxie-Rossa.otf');
+    src: local('Roxie-Rossa.otf'),
+    url('../fontes/Roxie-Rossa.otf') format('opentype');
 }
 
 * {
@@ -27,7 +27,7 @@ body {
     margin: 5px 0;
     text-transform: uppercase;
     text-align: center;
-    font-family: "Roxie Rossa";
+    font-family: "Roxie-Rossa", serif;
     font-size: 12px;
     letter-spacing: 2px;
 }

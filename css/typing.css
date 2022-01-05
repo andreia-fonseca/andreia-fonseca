@@ -10,7 +10,7 @@
     font-size: 60px;
     white-space: nowrap;
     overflow: hidden;
-    font-family: "Roxie Rossa";
+    font-family: "Roxie-Rossa", serif;;
 }
 
 .typing p:nth-child(1) {
